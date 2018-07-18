@@ -9418,3 +9418,31 @@ Unable to read VR Path Registry from C:\Users\mrthl\AppData\Local\openvr\openvrp
 1531933691709	addons.productaddons	INFO	downloadXHR File download. status=200
 1531933691710	addons.productaddons	INFO	Downloaded file will be saved to C:\Users\mrthl\AppData\Local\Temp\tmpaddon-f32b22
 [Parent 16956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1531934037362	addons.manager	DEBUG	Background update check beginning
+1531934037362	addons.manager	DEBUG	Background update check complete
+1531936032939	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat@mozilla.org version 2.0
+1531936032939	addons.xpi	DEBUG	Calling bootstrap method shutdown on webcompat-reporter@mozilla.org version 1.0.0
+1531936032940	addons.xpi	DEBUG	Calling bootstrap method shutdown on screenshots@mozilla.org version 32.1.0
+1531936032947	addons.xpi	DEBUG	Calling bootstrap method shutdown on onboarding@mozilla.org version 1.0
+1531936032949	addons.xpi	DEBUG	Calling bootstrap method shutdown on formautofill@mozilla.org version 1.0
+1531936032950	addons.xpi	DEBUG	Calling bootstrap method shutdown on followonsearch@mozilla.com version 0.9.7
+1531936032951	addons.xpi	DEBUG	Calling bootstrap method shutdown on firefox@getpocket.com version 1.0.5
+1531936032951	addons.xpi	DEBUG	Calling bootstrap method shutdown on aushelper@mozilla.org version 2.0
+1531936032952	addons.xpi	DEBUG	Calling bootstrap method shutdown on activity-stream@mozilla.org version 2018.06.29.1026-fa231556
+[Parent 16956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 16956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chr[Chilome/commd 16680on/ipc_ch, Chrome_annel_win.cChildThread] WAc, line 346
+RNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 16680, C[Parent 16956, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6504, Chr1531936033011	addons.manager	DEBUG	shutdown
+1531936033013	addons.manager	DEBUG	Calling shutdown blocker for XPIProvider
+1531936033013	addons.xpi	DEBUG	shutdown
+1531936033013	addons.xpi-utils	DEBUG	shutdown
+1531936033013	addons.manager	DEBUG	Calling shutdown blocker for LightweightThemeManager
+1531936033014	addons.manager	DEBUG	Calling shutdown blocker for GMPProvider
+1531936033014	addons.manager	DEBUG	Calling shutdown blocker for PluginProvider
+1531936033021	addons.manager	DEBUG	Async provider shutdown done
+[GPU 1
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
