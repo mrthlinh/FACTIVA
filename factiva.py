@@ -143,7 +143,7 @@ print("Download Directory: ",download_dir)
 print("File Name: ",filename)
 
 #load data
-data = pd.read_csv(filename,names  = ['CompanyName'])
+data = pd.read_csv("/companyList/" + filename,names  = ['CompanyName'])
 company_list = data['CompanyName']
 company_list = list(company_list)
     
