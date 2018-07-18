@@ -1,0 +1,20 @@
+{
+	"Date": "All Dates",
+	"Duplicates": "Off",
+	"Source": {
+		"Wires": {
+			"Newswires": 0,			
+			"Press Release Wires": {
+				"Business Wire (U.S.)": 1,
+				"GlobeNewswire (U.S.)": 1,
+				"PR Newswire (U.S.)": 1
+			}
+		}
+	},
+	"Region": {
+		"North America": {
+			"United States": 1
+		}
+		
+	}
+}
