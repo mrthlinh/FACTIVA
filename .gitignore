@@ -8,3 +8,7 @@ geckodriver.log
 .spyproject
 New folder
 json/
+CompanyNames-test.csv
+CompanyNames.csv
+RUN-Test.bat
+test.py
