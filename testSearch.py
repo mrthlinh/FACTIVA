@@ -7,18 +7,17 @@ Created on Tue Jul 10 12:06:30 2018
 
 # Scrap web
 from selenium import webdriver
-from bs4 import BeautifulSoup
 import pandas as pd
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait 
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import Select
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.firefox.options import Options
+#from selenium.webdriver.common.action_chains import ActionChains
+#from selenium.webdriver.common.keys import Keys
 import os
-import shutil 
+#import shutil 
 from glob import glob
 import json
 import datetime
