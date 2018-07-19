@@ -13,4 +13,5 @@
 - __RUN.bat__: Double-click to run this file. Loop over all files in company names and download files.
 
 ## Issues
-- [x] 7/19: Select "NOT" won't work in some cases 
+- [ ] 7/19: Add function "merging incompleted files"
+- [x] 7/19: Select "NOT" won't work in some cases
