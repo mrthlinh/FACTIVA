@@ -60,12 +60,13 @@ def navigate_click(my_dict):
         else:
             if (v == 1):
                 element.click()    
-            else:              
-                element.send_keys(Keys.ARROW_DOWN)
-                driver.implicitly_wait(10)
-                element_ = driver.find_element_by_link_text(k)
-                actionChains = ActionChains(driver)
-                actionChains.double_click(element_).perform()
+            else:
+                element.find_element_by_xpath("..//a[@title='Click to exclude.']").click()
+#                element.send_keys(Keys.ARROW_DOWN)
+#                driver.implicitly_wait(10)
+#                element_ = driver.find_element_by_link_text(k)
+#                actionChains = ActionChains(driver)
+#                actionChains.double_click(element_).perform()
 
 def correct_name(name):
     name = name.replace('.','')
@@ -143,7 +144,7 @@ print("Download Directory: ",download_dir)
 print("File Name: ",filename)
 
 #load data
-data = pd.read_csv("/companyList/" + filename,names  = ['CompanyName'])
+data = pd.read_csv("companyList/" + filename,names  = ['CompanyName'])
 company_list = data['CompanyName']
 company_list = list(company_list)
     
@@ -152,21 +153,8 @@ incomplete_company = error_dict.get("incomplete_company")
 print("Resume Download at Company: ",company_list[incomplete_company])
 print("Incomplete Download at file: ",incomplete_download)
 print("========================= Main Program ===================================")
-# Error file
 
-#error_json = glob(download_dir+"/json/error.json")
-#if (len(error_json) == 1):
-#    with open(error_json[0], 'r') as f:
-#        error_dict = json.load(f)
-#
-#    incomplete_download = error_dict.get("incomplete_download")
-#    incomplete_company = error_dict.get("incomplete_company")
-#    print("Incomplete Download: ",incomplete_download)
-#else:
-#    print("Multiple error.json file")
-#    exit()
 
-#download_dir = "E:\FACTIVA"
 url = "https://libproxy.utdallas.edu/login?url=http://global.factiva.com/en/sess/login.asp?xsid=S003Wvf3dRb4GFp5DEs5DEmODUqMTMoODFyMHmnRsIuMcNG1pRRQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQQAADay"
 
 fp = webdriver.FirefoxProfile()
@@ -179,7 +167,7 @@ fp.set_preference("pdfjs.disabled", True)
 driver = webdriver.Firefox(fp)
 driver.get(url)
 
-print("Logining")
+print("Login - Please enter user and password")
 session_id = driver.session_id  
 
 menu_dict = {"Source": 0, "Author":1,"Company":2,"Factiva Expert Search": 3,
@@ -215,6 +203,7 @@ for company_name in company_list[incomplete_company:]:
     new_directory = download_dir + "\\download\\" +company_name.replace('.','')
     if not os.path.exists(new_directory):
         os.makedirs(new_directory)
+    print("Created Folder at: ",new_directory)
     
     #==========================  Select Options =====================================================  
     main_menu = driver.find_elements_by_class_name("pnlTabArrow")

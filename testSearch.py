@@ -56,15 +56,18 @@ def navigate_click(my_dict):
         else:
             if (v == 1):
                 element.click()    
-            else:              
-                element.send_keys(Keys.ARROW_DOWN)
-                driver.implicitly_wait(10)
-                element_ = driver.find_element_by_link_text(k)
-#                driver.find_element_by_link_text("Newswires")
-                actionChains = ActionChains(driver)
-                actionChains.double_click(element_).perform()
+            else:   
+                element.find_element_by_xpath("..//a[@title='Click to exclude.']").click()
+                
+#                element.send_keys(Keys.ARROW_DOWN)
+#                driver.implicitly_wait(10)
+#                element_ = driver.find_element_by_link_text(k)
+#                actionChains = ActionChains(driver)
+#                actionChains.double_click(element_).perform()
+
 
 #navigate_click(actions.get("Source"))
+
 
 def correct_name(name):
     name = name.replace('.','')
@@ -106,10 +109,10 @@ with open("json/actions.json", 'r') as f:
 
 #load data
 filename = config.get("companyFile")
-data = pd.read_csv("/companyList/" +filename,names  = ['CompanyName'])
+data = pd.read_csv("companyList/" +filename,names  = ['CompanyName'])
 company_list = data['CompanyName']
 company_list = list(company_list)
-
+company_list = company_list[0:1]
 
 # Loop all companies
 for company_name in company_list:   
@@ -201,8 +204,8 @@ for company_name in company_list:
         print("Failed")
     print("Success")
     
-    searchBtn = driver.find_element_by_link_text("Search")
-    searchBtn.click()
+#    searchBtn = driver.find_element_by_link_text("Search")
+#    searchBtn.click()
 
     #==========================  Download & Get Data =====================================================  
     
