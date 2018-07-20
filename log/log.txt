@@ -1,0 +1,270 @@
+======================== Login and Configuration =========================
+Download Directory: E:\FACTIVA
+File Name: CompanyNames-test.csv
+Resume Download at Company: ADVANCE AUTO PARTS INC
+Resume Download at File Index: 12
+Login - Please enter user and password
+========================= Main Program ===================================
+Company Name: ADVANCE AUTO PARTS INC
+Page Loading: Ok
+Created Folder at: E:\FACTIVA\download\ADVANCE AUTO PARTS INC
+	Clicking Region: Ok
+	Clicking North America: Ok
+	Clicking United States: 	Select Duplicates with choice Off
+	Select Date with choice All Dates
+	Clicking Source: Ok
+	Clicking Wires: Ok
+	Clicking Newswires: Ok
+	Clicking Press Release Wires: Ok
+	Clicking PR Newswire (U.S.): Ok
+	Clicking GlobeNewswire (U.S.): Ok
+	Clicking Business Wire (U.S.): 	Fill out Company Name
+	Selecting Company Name: Ok
+	Clicking Search Button: Ok
+===================== Download & Get Data ================================
+	Number of flip page: 0
+	Wait for new page loaded: Ok
+	Adding Data
+	Downloading File
+	Download Article 13: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 14: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 15: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 16: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 17: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 18: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 19: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 20: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 21: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 22: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 23: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 24: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 25: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 26: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 27: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 28: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 29: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 30: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 31: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 32: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 33: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 34: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 35: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 36: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 37: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 38: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 39: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 40: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 41: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 42: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 43: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 44: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 45: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 46: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 47: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 48: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 49: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 50: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 51: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 52: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 53: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 54: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 55: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 56: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 57: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 58: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 59: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 60: Ok
+	Download Option Clicked
+	Wait for Download Finished
+	Wait to move File
+	Finish
+	Download Article 61: Ok
+	Download Option Clicked
