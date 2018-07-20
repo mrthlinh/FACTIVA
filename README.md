@@ -4,7 +4,8 @@
 __7/20:__
  1. Add merging functions when downloads are finished
  2. Add log function
- 2. Fixed minor Issues
+ 3. Delete "download_directory" in "config.json"
+ 4. Fixed minor Issues
 
 ## Folder
  1. __companyList:__ contains CSV format files of company names
@@ -30,9 +31,9 @@ __7/20:__
     - Hit "Enter" to finish procedure.
 
 ## How to Run
-- __install.bat__ to install needed libraries. If you see "Windows Protected your PC", choose "More info" then "Run anyway"
-- Edit __config.json__  to match your directory (you must replace all "\\" with " \\\ ")  
-- Edit __actions.json__ to match your search criteria.
+- __install.bat__ install needed libraries. If you see "Windows Protected your PC", choose "More info" then "Run anyway"
+- __config.json__ Edit this file to match your file name of company list
+- __actions.json__ Edit this file to match your search criteria.
 - __RUN-testSearch.bat__: Double-click to run this file. Test your search criteria in __actions.json__
 - __RUN.bat__: Double-click to run this file. Loop over all files in company names and download files. If download fails, re-run this file to continue the program.
 
