@@ -11,3 +11,4 @@ CompanyNames.csv
 download/
 json/actions.json
 json/error.json
+test.py
