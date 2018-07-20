@@ -158,11 +158,13 @@ with open("json/error.json", 'r') as f:
 with open("json/actions.json", 'r') as f:
     actions = json.load(f)
 
-download_dir = config.get("download_directory")
+download_dir = os.getcwd()
+#download_dir = config.get("download_directory")
 filename = config.get("companyFile")
 
 log("Download Directory: {}".format(download_dir))
 log("File Name: {}".format(filename))
+
 
 # Delete all incomplete PDF
 all_pdf = glob(download_dir+"/*.pdf")
